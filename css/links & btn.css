@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.courses__list li {
+    margin-bottom: 10px;
+}
+
+a:active {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
+/* a:visited {
+    text-decoration: none;
+    color:gray;
+} */
+
+
+button {
+    width: 115px;
+    height: 45px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: all 1s;
+}
+
+button:hover {
+    background-color: blue;
+    transform:scale(1.1);
+}

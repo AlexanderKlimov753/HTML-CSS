@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    padding: 30px 10px 10px 10px;
+    max-width: 750px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.header__text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.header p {
+    margin-bottom: 10px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.hobby {
+    background: rgba(184, 247, 252, 0.5);
+}
+
+.courses {
+    background:  rgba(252, 184, 185, 0.5);
+}
+
+.works {
+    background: rgba(198, 250, 190, 0.5);
+}
+
+

@@ -1,0 +1,28 @@
+.hobby__list li {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    padding-bottom: 5px;
+}
+
+table td {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+table tr:hover  {
+    background-color: lightgray;
+}
+
+table td:nth-child(2), table td:nth-child(3) {
+    color: #86898f;
+}
+
+
+
+

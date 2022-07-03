@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+}
+
+.header__text {
+    margin-left: 40px;
+}
+
+
+.connection h3 { 
+    text-align: center;
+}
+
+.forms label {
+    display: block;
+    font-size: 14px;
+    color:#86898f;
+}
+
+.forms input, .forms textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form_row {
+    margin-bottom: 10px;
+}
+
+.form_row .form_group {
+    display: inline-block;
+    margin-right: 20px;
+    width: 45%;
+}
+
+.form_group {
+    margin-bottom: 10px;
+}

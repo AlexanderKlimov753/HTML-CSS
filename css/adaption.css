@@ -1,0 +1,15 @@
+@media (max-width: 650px ) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .form_row {
+        display: block;
+    }
+    .form_row .form_group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
